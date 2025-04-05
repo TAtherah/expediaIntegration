@@ -1,11 +1,18 @@
 package com.digi.expediaIntegration.vo;
 
+/**
+ * the main package response
+ * @author Tariq
+ *
+ */
 public class Package {
 	
 	private Destination destination;
 	private Origin origin;
 	private OfferDateRange offerDateRange;
 	private PackagePricingInfo packagePricingInfo;
+	// add needed properties
+	
 	public Destination getDestination() {
 		return destination;
 	}
